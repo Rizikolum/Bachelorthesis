@@ -1,0 +1,131 @@
+errorrate: 0.01, del: 0, p_gb: 0, p_bg: 1, b_err: 0, interleave: True
+P(good): 1, P(bad): 0
+P(no error): 0.99, P(error): 0.01, Expected Burstlength: 1
+
+--------------------------16--------------------------
+0,0786555619446422
+0,314586777625393
+---------Comparison L(29,6,15)--------
+expected Errors: 0.28, expected deletions: 0
+Capacity: 16, Redundancy: 13
+Coderate: 0,552
+L: affected codewords: 9 / 5000 = 0.0018
+
+--------SWTC C(54,4,27)---------
+CW: C(6,6,3), 0: C(9,4,3), 1: C(9,4,6)
+expected Errors: 0.54, expected deletions: 0
+bits/subword: 3, redundancy/subword: 6, total bits: 18, total redundancy: 36
+Coderate: 3 / 9 = 0.333333333333333 (Subword)
+Coderate: (3 * 6 + 1) / 54 = 0.351851851851852 (including Controlword)
+Confidence Interval: 0.515372681822458 <= 0.54 <= 0.566227318177542 (0.5408) True
+swtc: total bit error rate: 1.48148148148148E-05, affected codewords: 1 / 5000 = 0.0002
+
+---------KS C(30,4,14)--------
+2: C(15,4,7)
+expected Errors: 0.3, expected deletions: 0
+bits/subword: 9, redundancy/subword: 6, total bits: 18, total redundancy: 12
+Coderate: 9 * 2 / 30 = 0.6 (Concatenated)
+Confidence Interval: 0.283327361139301 <= 0.3 <= 0.321472638860699 (0.3024) True
+ks:   total bit error rate: 2.66666666666667E-05, affected codewords: 1 / 5000 = 0.0002
+
+---------Comparison U(28,6,14)--------
+expected Errors: 0.28, expected deletions: 0
+Capacity: 16, Redundancy: 12
+Coderate: 0,571
+U: affected codewords: 8 / 5000 = 0.0016
+
+--------------------------32--------------------------
+0,221849230108042
+0,13082026247248
+---------Comparison L(47,6,24)--------
+expected Errors: 0.48, expected deletions: 0
+Capacity: 32, Redundancy: 15
+Coderate: 0,681
+L: affected codewords: 51 / 5000 = 0.0102
+
+--------SWTC C(80,4,40)---------
+CW: C(8,8,4), 0: C(10,4,4), 1: C(10,4,6)
+expected Errors: 0.8, expected deletions: 0
+bits/subword: 4, redundancy/subword: 6, total bits: 32, total redundancy: 48
+Coderate: 4 / 10 = 0.4 (Subword)
+Coderate: (4 * 8 + 1) / 80 = 0.4125 (including Controlword)
+Confidence Interval: 0.771247039475455 <= 0.8 <= 0.834352960524545 (0.8028) True
+swtc: total bit error rate: 3E-05, affected codewords: 3 / 5000 = 0.0006
+
+---------KS C(60,4,28)--------
+2: C(15,4,7)
+expected Errors: 0.6, expected deletions: 0
+bits/subword: 9, redundancy/subword: 6, total bits: 36, total redundancy: 24
+Coderate: 9 * 4 / 60 = 0.6 (Concatenated)
+Confidence Interval: 0.5746457347673 <= 0.6 <= 0.6281542652327 (0.6014) True
+ks:   total bit error rate: 5.33333333333333E-05, affected codewords: 4 / 5000 = 0.0008
+
+---------Comparison U(48,6,24)--------
+expected Errors: 0.48, expected deletions: 0
+Capacity: 32, Redundancy: 16
+Coderate: 0,667
+U: affected codewords: 54 / 5000 = 0.0108
+
+--------------------------64--------------------------
+0,428717900490602
+0,283499980781942
+---------Comparison L(88,8,44)--------
+expected Errors: 0.9, expected deletions: 0
+Capacity: 64, Redundancy: 24
+Coderate: 0,727
+L: affected codewords: 53 / 5000 = 0.0106
+
+--------SWTC C(136,4,68)---------
+CW: C(8,8,4), 0: C(17,4,5), 1: C(17,4,12)
+expected Errors: 1.36, expected deletions: 0
+bits/subword: 8, redundancy/subword: 9, total bits: 64, total redundancy: 72
+Coderate: 8 / 17 = 0.470588235294118 (Subword)
+Coderate: (8 * 8 + 1) / 136 = 0.477941176470588 (including Controlword)
+Confidence Interval: 1.32618061741772 <= 1.36 <= 1.40781938258228 (1.367) True
+swtc: total bit error rate: 5.88235294117647E-05, affected codewords: 10 / 5000 = 0.002
+
+---------KS C(112,4,56)--------
+2: C(16,4,8)
+expected Errors: 1.12, expected deletions: 0
+bits/subword: 10, redundancy/subword: 6, total bits: 70, total redundancy: 42
+Coderate: 10 * 7 / 112 = 0.625 (Concatenated)
+Confidence Interval: 1.08716296045228 <= 1.12 <= 1.16123703954772 (1.1242) True
+ks:   total bit error rate: 5E-05, affected codewords: 7 / 5000 = 0.0014
+
+---------Comparison U(90,8,45)--------
+expected Errors: 0.9, expected deletions: 0
+Capacity: 64, Redundancy: 26
+Coderate: 0,711
+U: affected codewords: 60 / 5000 = 0.012
+
+--------------------------128--------------------------
+-0,700813916743263
+-0,138755144678844
+---------Comparison L(162,10,81)--------
+expected Errors: 1.68, expected deletions: 0
+Capacity: 128, Redundancy: 34
+Coderate: 0,790
+L: affected codewords: 127 / 5000 = 0.0254
+
+--------SWTC C(280,6,125)---------
+CW: C(10,10,5), 0: C(25,6,11), 1: C(25,6,14)
+expected Errors: 2.8, expected deletions: 0
+bits/subword: 13, redundancy/subword: 15, total bits: 130, total redundancy: 150
+Coderate: 13 / 28 = 0.464285714285714 (Subword)
+Coderate: (13 * 10 + 1) / 280 = 0.467857142857143 (including Controlword)
+Confidence Interval: 2.725096595572 <= 2.8 <= 2.842103404428 (2.7836) True
+swtc: total bit error rate: 4.28571428571429E-06, affected codewords: 1 / 5000 = 0.0002
+
+---------KS C(208,4,104)--------
+2: C(16,4,8)
+expected Errors: 2.08, expected deletions: 0
+bits/subword: 10, redundancy/subword: 6, total bits: 130, total redundancy: 78
+Coderate: 10 * 13 / 208 = 0.625 (Concatenated)
+Confidence Interval: 2.02675142012066 <= 2.08 <= 2.12764857987934 (2.0772) True
+ks:   total bit error rate: 7.69230769230769E-05, affected codewords: 19 / 5000 = 0.0038
+
+---------Comparison U(168,10,84)--------
+expected Errors: 1.68, expected deletions: 0
+Capacity: 128, Redundancy: 40
+Coderate: 0,762
+U: affected codewords: 141 / 5000 = 0.0282

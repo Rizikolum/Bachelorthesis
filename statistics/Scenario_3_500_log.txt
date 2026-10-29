@@ -1,0 +1,56 @@
+---------KS C(160,10,80)--------
+2: C(10,10,5)
+expected Errors: 16, expected deletions: 0
+bits/subword: 1, redundancy/subword: 9, total bits: 16, total redundancy: 144
+Coderate: 1 * 16 / 160 = 0.1 (Concatenated)
+Confidence Interval: 15.1311401530152 <= 16 <= 16.9408598469848 (16.036) True
+total bit error rate: 0.00075, affected codewords: 5 / 500 = 0.01
+---------KS C(320,10,160)--------
+2: C(10,10,5)
+expected Errors: 32, expected deletions: 0
+bits/subword: 1, redundancy/subword: 9, total bits: 32, total redundancy: 288
+Coderate: 1 * 32 / 320 = 0.1 (Concatenated)
+Confidence Interval: 30.5719681312013 <= 32 <= 33.2960318687987 (31.934) True
+total bit error rate: 0.0003125, affected codewords: 5 / 500 = 0.01
+---------KS C(640,10,320)--------
+2: C(10,10,5)
+expected Errors: 64, expected deletions: 0
+bits/subword: 1, redundancy/subword: 9, total bits: 64, total redundancy: 576
+Coderate: 1 * 64 / 640 = 0.1 (Concatenated)
+Confidence Interval: 62.0350320644024 <= 64 <= 65.7849679355976 (63.91) True
+total bit error rate: 0.000375, affected codewords: 11 / 500 = 0.022
+---------KS C(1280,10,640)--------
+2: C(10,10,5)
+expected Errors: 128, expected deletions: 0
+bits/subword: 1, redundancy/subword: 9, total bits: 128, total redundancy: 1152
+Coderate: 1 * 128 / 1280 = 0.1 (Concatenated)
+Confidence Interval: 124.476011608333 <= 128 <= 129.599988391667 (127.038) True
+total bit error rate: 0.000359375, affected codewords: 20 / 500 = 0.04
+---------KS C(224,14,112)--------
+2: C(14,14,7)
+expected Errors: 22.4, expected deletions: 0
+bits/subword: 1, redundancy/subword: 13, total bits: 16, total redundancy: 208
+Coderate: 1 * 16 / 224 = 0.0714285714285714 (Concatenated)
+Confidence Interval: 21.1977183512039 <= 22.4 <= 23.4302816487961 (22.314) True
+total bit error rate: 0, affected codewords: 0 / 500 = 0
+---------KS C(448,14,224)--------
+2: C(14,14,7)
+expected Errors: 44.8, expected deletions: 0
+bits/subword: 1, redundancy/subword: 13, total bits: 32, total redundancy: 416
+Coderate: 1 * 32 / 448 = 0.0714285714285714 (Concatenated)
+Confidence Interval: 42.6334852480622 <= 44.8 <= 45.8065147519378 (44.22) True
+total bit error rate: 0.000125, affected codewords: 2 / 500 = 0.004
+---------KS C(896,14,448)--------
+2: C(14,14,7)
+expected Errors: 89.6, expected deletions: 0
+bits/subword: 1, redundancy/subword: 13, total bits: 64, total redundancy: 832
+Coderate: 1 * 64 / 896 = 0.0714285714285714 (Concatenated)
+Confidence Interval: 86.4831425087564 <= 89.6 <= 90.9088574912436 (88.696) True
+ks:   total bit error rate: 3.125E-05, affected codewords: 1 / 500 = 0.002
+---------KS C(1792,14,896)--------
+2: C(14,14,7)
+expected Errors: 179.2, expected deletions: 0
+bits/subword: 1, redundancy/subword: 13, total bits: 128, total redundancy: 1664
+Coderate: 1 * 128 / 1792 = 0.0714285714285714 (Concatenated)
+Confidence Interval: 175.339322826205 <= 179.2 <= 181.508677173795 (178.424) True
+total bit error rate: 3.125E-05, affected codewords: 2 / 500 = 0.004
